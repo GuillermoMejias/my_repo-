@@ -2,10 +2,12 @@
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
 function cube() {
-!1
 var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 }
+function seno(){
+var num2 = document.getElementById("n1");
+num2.value = sin(num.value);
 </script>
 </head>
 <body>
@@ -13,5 +15,6 @@ num.value = Math.pow(num.value, 3);
 Number:
 <input type="text" id="n1">
 <button onclick="cube()"> x^3 </button>
+<button onclick="seno()"> sin(x) </button>
 </body>
 </html>
